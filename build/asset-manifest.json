@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/ra-hw-2.1-portfolio/static/css/main.fadd015e.chunk.css",
+    "main.js": "/ra-hw-2.1-portfolio/static/js/main.32d46132.chunk.js",
+    "main.js.map": "/ra-hw-2.1-portfolio/static/js/main.32d46132.chunk.js.map",
+    "runtime-main.js": "/ra-hw-2.1-portfolio/static/js/runtime-main.bd55b48e.js",
+    "runtime-main.js.map": "/ra-hw-2.1-portfolio/static/js/runtime-main.bd55b48e.js.map",
+    "static/js/2.4e6fb405.chunk.js": "/ra-hw-2.1-portfolio/static/js/2.4e6fb405.chunk.js",
+    "static/js/2.4e6fb405.chunk.js.map": "/ra-hw-2.1-portfolio/static/js/2.4e6fb405.chunk.js.map",
+    "static/js/3.718fc60c.chunk.js": "/ra-hw-2.1-portfolio/static/js/3.718fc60c.chunk.js",
+    "static/js/3.718fc60c.chunk.js.map": "/ra-hw-2.1-portfolio/static/js/3.718fc60c.chunk.js.map",
+    "index.html": "/ra-hw-2.1-portfolio/index.html",
+    "static/css/main.fadd015e.chunk.css.map": "/ra-hw-2.1-portfolio/static/css/main.fadd015e.chunk.css.map",
+    "static/js/2.4e6fb405.chunk.js.LICENSE.txt": "/ra-hw-2.1-portfolio/static/js/2.4e6fb405.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/ra-hw-2.1-portfolio/static/media/OpenSans-Bold.fc10ccf1.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bd55b48e.js",
+    "static/js/2.4e6fb405.chunk.js",
+    "static/css/main.fadd015e.chunk.css",
+    "static/js/main.32d46132.chunk.js"
+  ]
+}
