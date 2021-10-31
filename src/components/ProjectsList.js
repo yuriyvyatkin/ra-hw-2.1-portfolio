@@ -1,4 +1,6 @@
-export default function ProjectList({ projects }) {
+import Project from './Project';
+
+export default function ProjectsList({ projects }) {
   const column1 = [];
   const column2 = [];
   const column3 = [];
@@ -18,36 +20,30 @@ export default function ProjectList({ projects }) {
       <div className="column">
         {column1.map((project, index) => {
           return (
-            <div key={index} className="project">
-              <img
-                src={process.env.PUBLIC_URL + `/assets/images/${project.img}`}
-                alt="#0"
-              />
-            </div>
+            <Project
+              key={index}
+              src={process.env.PUBLIC_URL + `/assets/images/${project.img}`}
+            />
           );
         })}
       </div>
       <div className="column">
         {column2.map((project, index) => {
           return (
-            <div key={index} className="project">
-              <img
-                src={process.env.PUBLIC_URL + `/assets/images/${project.img}`}
-                alt="#0"
-              />
-            </div>
+            <Project
+              key={index}
+              src={process.env.PUBLIC_URL + `/assets/images/${project.img}`}
+            />
           );
         })}
       </div>
       <div className="column">
         {column3.map((project, index) => {
           return (
-            <div key={index} className="project">
-              <img
-                src={process.env.PUBLIC_URL + `/assets/images/${project.img}`}
-                alt="#0"
-              />
-            </div>
+            <Project
+              key={index}
+              src={process.env.PUBLIC_URL + `/assets/images/${project.img}`}
+            />
           );
         })}
       </div>

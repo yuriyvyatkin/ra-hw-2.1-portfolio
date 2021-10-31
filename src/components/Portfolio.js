@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import projects from '../data/projects';
 import Toolbar from './Toolbar';
-import ProjectList from './ProjectList';
+import ProjectsList from './ProjectsList';
 
 export default function Portfolio() {
   const [filter, setFilter] = useState('All');
@@ -28,7 +28,7 @@ export default function Portfolio() {
 
       <div className="body">
         <div className="wrapper">
-            <ProjectList projects={filteredProjects} />
+            <ProjectsList projects={filteredProjects} />
         </div>
       </div>
     </>
